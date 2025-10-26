@@ -1,0 +1,113 @@
+#page title
+page_title                                : Dropbear Labs                             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+github_link                               : https://github.com/tbwfdu/fetch/releases  # Enter link to GitHub repository. s
+site_icon                                 : assets/dbl.png                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Pete Lindley                                
+your_link                                 : https://github.com/tbwfdu                     
+your_city                                 : Down Under, Australia                                
+email_address                             : thisispete@gmail.com
+linkedin_username                         :                                           
+linkedin_company                          :                                           
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : tbwfdu
+
+apps                                      :
+
+  - title                                 : Fetch
+    description                           : Workspace ONE Application Management Tool
+    os                                    : windows
+    os_title                              : Windows
+    logo                                  : fetch.png
+    docs_link                             : https://
+
+  - title                                 : Juice
+    description                           : Workspace ONE Application Management Tool
+    os                                    : apple
+    os_title                              : macOS
+    logo                                  : juice.png
+    docs_link                             : https://
+  
+  - title                                 : Mover
+    description                           : Workspace ONE Migration Tool
+    os                                    : windows
+    os_title                              : Windows
+    logo                                  : mover.png
+    docs_link                             : https://
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_os                                 : windows                                     # Set to: macos or windows
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+windows_icon_color                        : "#0078D4"
+apple_icon_color                          : "#666666"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  toc_levels: 1..6

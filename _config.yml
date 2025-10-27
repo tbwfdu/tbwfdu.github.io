@@ -26,14 +26,14 @@ apps                                      :
     os                                    : windows
     os_title                              : Windows
     logo                                  : fetch.png
-    docs_link                             : https://
+    docs_link                             : https://dropbearlabs.net/fetch
 
   - title                                 : Juice
     description                           : Workspace ONE Application Management Tool
     os                                    : apple
     os_title                              : macOS
     logo                                  : juice.png
-    docs_link                             : https://
+    docs_link                             : https://dropbearlabs.net/juice
   
   - title                                 : Mover
     description                           : Workspace ONE Migration Tool

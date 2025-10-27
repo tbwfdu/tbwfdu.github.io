@@ -26,21 +26,24 @@ apps                                      :
     os                                    : windows
     os_title                              : Windows
     logo                                  : fetch.png
-    docs_link                             : https://dropbearlabs.net/fetch
+    details_link                          : https://dropbearlabs.net/fetch
+    download_link                         : https://github.com/tbwfdu/fetch/releases
 
   - title                                 : Juice
     description                           : Workspace ONE Application Management Tool
     os                                    : apple
     os_title                              : macOS
     logo                                  : juice.png
-    docs_link                             : https://dropbearlabs.net/juice
+    details_link                          : https://dropbearlabs.net/juice
+    download_link                         : https://github.com/tbwfdu/juice/releases
   
   - title                                 : Mover
     description                           : Workspace ONE Migration Tool
     os                                    : windows
     os_title                              : Windows
     logo                                  : mover.png
-    docs_link                             : https://
+    details_link                          : https://
+    download_link                         : https://
 
 
 # Theme Settings

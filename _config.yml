@@ -42,8 +42,8 @@ apps                                      :
     os                                    : windows
     os_title                              : Windows
     logo                                  : mover.png
-    details_link                          : https://
-    download_link                         : https://
+    details_link                          : https://github.com/tbwfdu/mover
+    download_link                         : https://github.com/tbwfdu/mover/releases
 
 
 # Theme Settings
